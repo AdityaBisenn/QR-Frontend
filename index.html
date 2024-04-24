@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="author" content="Arush Bansal" />
+    <title>Shivalik Mess Scanner</title>
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-primary">
+    <main>
+        <div id="showLoader">
+            <div id="qr-reader-results" class="text-white text-center"></div>
+            <div class="spinner-border text-white" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center py-3">
+            <div class="col-11 col-sm-6 col-md-4">
+                <div class="input-group mb-3">
+                </div>
+                <div id="qr-reader"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/sweetalert.min.js"></script>
+    <script src="assets/js/html5-qrcode.min.js"></script>
+    <script src="assets/js/scan.js"></script>
+</body>
+
+</html>
